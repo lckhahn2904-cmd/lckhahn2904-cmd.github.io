@@ -394,7 +394,7 @@
   <main class="relative z-10 pt-24">
     <!-- ==================== HERO SECTION ==================== -->
     <section id="about"
-      class="min-h-[calc(100vh-6rem)] flex items-center py-16 lg:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      class="py-12 lg:py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center w-full">
 
         <!-- Left Column: Introduction & CTA -->
@@ -466,7 +466,7 @@
 
         <!-- Right Column: Personal Portrait Frame -->
         <div class="lg:col-span-5 flex justify-center items-center">
-          <div class="relative w-full max-w-sm sm:max-w-md mx-auto group">
+          <div class="relative w-full max-w-sm lg:max-w-[380px] mx-auto group">
             <!-- Dynamic ambient glow (cyan to purple) -->
             <div
               class="absolute -inset-1.5 bg-gradient-to-tr from-cyan-500 via-indigo-500 to-purple-600 rounded-3xl blur-xl opacity-35 group-hover:opacity-60 transition duration-700">
@@ -480,7 +480,7 @@
                 class="relative w-full aspect-[4/5] rounded-[22px] bg-dark-950 overflow-hidden">
                 <!-- Portrait Image: Object-cover object-center to keep face centered -->
                 <img id="portraitImg" src="assets/images/portrait.jpg" alt="Lê Chí Kha - Data Science & AI"
-                  class="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
+                  class="block w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
                   onerror="handlePortraitError(this)" />
 
                 <!-- Fallback Alert if portrait.jpg cannot be loaded -->
